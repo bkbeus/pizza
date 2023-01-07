@@ -49,9 +49,8 @@ public class PlaceManager : MonoBehaviour
         if(isBuilding == true){
             if(dummyPlacement == true){
                 GetHoverTile();
-                Debug.Log(dummyPlacement.transform.position);
-                Debug.Log(hoverTile.transform.position);
-                //dummyPlacement.transform.position = hoverTile.transform.position;
+                
+                dummyPlacement.transform.position = hoverTile.transform.position;
             }
         }
 
